@@ -98,7 +98,8 @@ export default function LandingPage() {
         <h3 className="text-4xl font-bold mb-16">App Showcase</h3>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          <video src=""></video>
+            <h2 className="text-center px-12 py-24 text-4xl">SHOWCASE VIDEO</h2>
+          <video src="" alt="Showcase vid"></video>
         </div>
       </section>
 
@@ -154,13 +155,13 @@ export default function LandingPage() {
           onClick={() => navigate("/login")}
           className="bg-teal-400 dark:bg-teal-500 px-12 py-5 text-xl rounded-xl font-bold hover:scale-110 transition"
         >
-          Create Account 🚀
+          Create Account
         </button>
       </section>
 
       {/* FAQ */}
       <section className="px-12 py-24">
-        <h3 className="text-4xl mb-12 font-extrabold text-center">FAQ 🙋‍♂️</h3>
+        <h3 className="text-4xl mb-12 font-extrabold text-center">FAQ</h3>
         <div className="space-y-6 max-w-3xl mx-auto">
           {[
             ["How much does it cost?", "it's free (for now)"],
