@@ -98,17 +98,7 @@ export default function LandingPage() {
         <h3 className="text-4xl font-bold mb-16">App Showcase</h3>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          {["Dashboard", "Daily Entries", "Analytics"].map((title, i) => (
-            <motion.div
-              key={i}
-              className="rounded-xl overflow-hidden shadow-xl bg-gray-200 dark:bg-gray-700 cursor-pointer"
-              whileHover={{ scale: 1.05 }}
-            >
-              <div className="w-full h-48 bg-gradient-to-br from-teal-400 dark:from-teal-300 to-gray-300 dark:to-gray-900 flex items-center justify-center">
-                <span className="font-bold text-xl">{title}</span>
-              </div>
-            </motion.div>
-          ))}
+          <video src=""></video>
         </div>
       </section>
 
